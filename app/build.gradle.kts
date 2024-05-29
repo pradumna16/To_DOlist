@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId = "com.thestart.to_dolist"
-        minSdk = 21
+        minSdk = 24
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -41,4 +41,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation ("androidx.legacy:legacy-support-v4:1.0.0")
+    implementation ("androidx.core:core-ktx:1.7.0")
+
+
 }

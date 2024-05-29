@@ -3,7 +3,7 @@ package com.thestart.to_dolist.Model;
 public class ToDoModel {
     private int id, status;
     private String task;
-
+    private Long reminderTime;
 
 
     public int getId() {
@@ -30,5 +30,11 @@ public class ToDoModel {
         this.task = task;
     }
 
+    public Long getReminderTime() {
+        return reminderTime;
+    }
 
+    public void setReminderTime(Long reminderTime) {
+        this.reminderTime = reminderTime;
+    }
 }

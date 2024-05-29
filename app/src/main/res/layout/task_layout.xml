@@ -22,7 +22,15 @@
             android:buttonTint="@android:color/holo_green_dark"
             tools:text="Go to the market and bring vegetables immediately today."/>
 
-
+        <TextView
+            android:id="@+id/reminderTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/todoCheckBox"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="Reminder: 10:00 AM"
+            android:textColor="@color/colorPrimaryDark"/>
 
     </RelativeLayout>
 
